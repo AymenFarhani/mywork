@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.Student;
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/secure")
 public class StudentController {
 	
 	public static final List<Student> STUDENTS=Arrays.asList(
